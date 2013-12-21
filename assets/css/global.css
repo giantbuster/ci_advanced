@@ -1,0 +1,74 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+}
+
+html, body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -35px;
+    /* Pad bottom by footer height */
+    padding: 0 0 35px;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+    height: 35px;
+    background-color: #f5f5f5;
+}
+
+.entry-form{
+	width: 35%;
+	min-width: 280px;
+}
+
+.entry-form form .submit{
+	text-align: right;
+}
+
+.entry-form form{
+	margin-bottom: 25px;
+}
+
+.navbar .btn-floating{
+	border: none;
+	background: none;
+	color: #d9d9d9;
+	float: right;
+	vertical-align: bottom;
+}
+
+.btn-floating:hover{
+	color: #a9a9a9;
+}
+
+.header-btn-area{
+	margin: 30px 0px 15px 0px;
+	height: 50px;
+	overflow: auto;
+}
+
+.header-btn-area h1{
+	float: left;
+	vertical-align: top;
+	margin: 0px;
+}
+
+.header-btn-area a{
+	float: right;
+}
+
+.post-message{
+	margin-top: 30px;
+}
+
+.post-message textarea{
+	resize: none;
+}

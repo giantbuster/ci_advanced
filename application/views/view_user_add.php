@@ -1,3 +1,3 @@
 <div class="container">
-	<h1>Edit User</h1>
+	<h1>Add User</h1>
 </div>
